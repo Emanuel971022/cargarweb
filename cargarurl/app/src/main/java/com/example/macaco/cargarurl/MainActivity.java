@@ -16,6 +16,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Esta es la opción de código que carga el URL en el webview
         WebView wb= (WebView)findViewById(R.id.webView);
         WebSettings ws=wb.getSettings();
         ws.setJavaScriptEnabled(true);
